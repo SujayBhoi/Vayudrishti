@@ -1,0 +1,26 @@
+{
+  "test": {
+    "rmse": 63.590110629408706,
+    "mae": 42.86774751796764,
+    "r2": 0.5103864272459447,
+    "mape": 38.04923405291293,
+    "n": 35848
+  },
+  "train_seconds_total": 873.8330632000001,
+  "n_stations_fit": 101,
+  "n_stations_failed": 0,
+  "n_stations_used_fallback_order": 0,
+  "failures": [],
+  "order": [
+    1,
+    1,
+    1
+  ],
+  "seasonal_order": [
+    1,
+    1,
+    1,
+    7
+  ],
+  "note": "deliberately univariate (AQI history only, no satellite features) - see module docstring"
+}

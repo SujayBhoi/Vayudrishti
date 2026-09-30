@@ -1,0 +1,101 @@
+station_id,city,lat,lon,date,predicted_aqi,aqi_category
+"Samanpura, Patna - BSPCB",Patna,25.6093239,85.1235252,2025-12-31,310.2,Very Poor
+"Anand Vihar, Delhi - DPCC",DELHI,28.6468336,77.3158749,2025-12-31,261.5,Poor
+"Pusa, Delhi - IITM",DELHI,28.6362997,77.1576444,2025-12-30,260.1,Poor
+"Vasundhara, Ghaziabad - UPPCB",Ghaziabad,28.7749966,77.4586967,2025-12-31,247.3,Poor
+"Sector - 62, Noida - IITM",Noida,28.5706333,77.3272147,2025-12-31,242.5,Poor
+"Loni, Ghaziabad - UPPCB",Ghaziabad,28.7749966,77.4586967,2025-12-31,240.3,Poor
+"Knowledge Park - V, Greater Noida - UPPCB",Greater Noida,28.4670734,77.5137649,2025-12-31,237.1,Poor
+"Sanjay Nagar, Ghaziabad - UPPCB",Ghaziabad,28.7749966,77.4586967,2025-12-31,230.8,Poor
+"Pallavpuram Phase 2, Meerut - UPPCB",Meerut,29.0018557,77.7679671,2025-12-31,229.7,Poor
+"Indirapuram, Ghaziabad - UPPCB",Ghaziabad,28.7749966,77.4586967,2025-12-31,229.5,Poor
+"Vivek Vihar, Delhi - DPCC",DELHI,28.6691641,77.312267,2025-12-31,223.7,Poor
+"Knowledge Park - III, Greater Noida - UPPCB",Greater Noida,28.4670734,77.5137649,2025-12-31,223.4,Poor
+"Ganga Nagar, Meerut - UPPCB",Meerut,29.0018557,77.7679671,2025-12-31,222.0,Poor
+"Sector-1, Noida - UPPCB",Noida,28.5706333,77.3272147,2025-12-31,221.0,Poor
+"Sector-116, Noida - UPPCB",Noida,28.5706333,77.3272147,2025-12-31,218.0,Poor
+"NSIT Dwarka, Delhi - CPCB",DELHI,28.6138954,77.2090057,2025-12-31,215.1,Poor
+"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,26.8381,80.9346001,2025-12-31,209.9,Poor
+"Wazirpur, Delhi - DPCC",DELHI,28.6800843,77.1702212,2025-12-31,205.9,Poor
+"Shadipur, Delhi - CPCB",DELHI,28.6515829,77.1582587,2025-12-31,204.0,Poor
+"Jahangirpuri, Delhi - DPCC",DELHI,28.7259717,77.162658,2025-12-31,202.0,Poor
+"Nehru Nagar, Delhi - DPCC",DELHI,28.5685108,77.2513847,2025-12-31,201.7,Poor
+"Bawana, Delhi - DPCC",DELHI,28.79966,77.0328847,2025-12-31,199.0,Moderate
+"Pusa, Delhi - DPCC",DELHI,28.6362997,77.1576444,2025-12-31,198.5,Moderate
+"DTU, Delhi - CPCB",DELHI,28.7508153,77.1162765,2025-12-31,198.5,Moderate
+"Mandir Marg, Delhi - DPCC",DELHI,28.6314515,77.1984495,2025-12-31,196.5,Moderate
+"Patparganj, Delhi - DPCC",DELHI,28.6115923,77.2905644,2025-12-31,195.5,Moderate
+"Sonia Vihar, Delhi - DPCC",DELHI,28.7199257,77.2481823,2025-12-31,193.9,Moderate
+"Sirifort, Delhi - CPCB",DELHI,28.5501575,77.2249099,2025-12-31,191.8,Moderate
+"North Campus, DU, Delhi - IITM",DELHI,28.6138954,77.2090057,2025-12-31,191.2,Moderate
+"Rohini, Delhi - DPCC",DELHI,28.7162092,77.1170743,2025-12-31,190.5,Moderate
+"Punjabi Bagh, Delhi - DPCC",DELHI,28.672995,77.1461239,2025-12-31,189.3,Moderate
+"Narela, Delhi - DPCC",DELHI,28.8464766,77.0856631,2025-12-31,187.4,Moderate
+"Ashok Vihar, Delhi - DPCC",DELHI,28.6885171,77.1739339,2025-12-31,186.8,Moderate
+"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,29.4496979,77.7429333,2025-12-31,185.8,Moderate
+"Dwarka-Sector 8, Delhi - DPCC",DELHI,28.5656109,77.0670366,2025-12-31,185.1,Moderate
+"Kurla, Mumbai - MPCB",Mumbai,19.054999,72.8692035,2025-12-31,184.7,Moderate
+"Mundka, Delhi - DPCC",DELHI,28.6824341,77.0305741,2025-12-31,183.3,Moderate
+"R K Puram, Delhi - DPCC",DELHI,28.5503805,77.1855231,2025-12-31,183.0,Moderate
+"Major Dhyan Chand National Stadium, Delhi - DPCC",DELHI,28.6126342,77.2373304,2025-12-31,182.1,Moderate
+"Okhla Phase-2, Delhi - DPCC",DELHI,28.6138954,77.2090057,2025-12-31,182.1,Moderate
+"Dr. Karni Singh Shooting Range, Delhi - DPCC",DELHI,28.5000822,77.2675147,2025-12-31,181.9,Moderate
+"Alipur, Delhi - DPCC",DELHI,28.7973118,77.138667,2025-12-31,181.7,Moderate
+"Jawaharlal Nehru Stadium, Delhi - DPCC",DELHI,28.5833771,77.2335404,2025-12-31,181.5,Moderate
+"ITO, Delhi - CPCB",DELHI,28.6281909,77.2410437,2025-12-31,178.7,Moderate
+"IMD Lodhi Road, Delhi - IITM",DELHI,28.6138954,77.2090057,2025-12-31,178.1,Moderate
+"IHBAS, Dilshad Garden, Delhi - CPCB",DELHI,28.6138954,77.2090057,2025-12-31,177.7,Moderate
+"Sri Aurobindo Marg, Delhi - DPCC",DELHI,28.5396291,77.2000301,2025-12-31,174.6,Moderate
+"CRRI Mathura Road, Delhi - IITM",DELHI,28.5500925,77.2751557,2025-12-31,168.1,Moderate
+"Lalbagh, Lucknow - CPCB",Lucknow,26.8381,80.9346001,2025-12-31,167.9,Moderate
+"Vile Parle West, Mumbai - MPCB",Mumbai,19.054999,72.8692035,2025-12-31,166.4,Moderate
+"Aya Nagar, Delhi - IITM",DELHI,28.4764911,77.1329132,2025-12-31,165.8,Moderate
+"Yamunapuram, Bulandshahr - UPPCB",Bulandshahr,28.3874073,77.9743805,2025-12-31,159.9,Moderate
+"RIICO Ind. Area III, Bhiwadi - RSPCB",Bhiwadi,28.2039413,76.837441,2025-12-31,158.7,Moderate
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",Mumbai,19.054999,72.8692035,2025-12-31,158.5,Moderate
+"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",Muzaffarpur,26.1482548,85.3316097,2025-12-31,157.5,Moderate
+"IGI Airport (T3), Delhi - IITM",DELHI,28.5552482,77.0903517,2025-12-31,154.3,Moderate
+"Anand Vihar, Hapur - UPPCB",Hapur,28.7166767,77.890433,2025-12-31,153.5,Moderate
+"Maninagar, Ahmedabad - GPCB",Ahmedabad,23.0215374,72.5800568,2025-12-31,149.4,Moderate
+"Colaba, Mumbai - MPCB",Mumbai,19.054999,72.8692035,2025-12-30,148.0,Moderate
+"Borivali East, Mumbai - MPCB",Mumbai,19.054999,72.8692035,2025-12-31,146.0,Moderate
+"GIDC, Ankleshwar - GPCB",Ankleshwar,21.6293206,72.9945103,2025-12-31,145.7,Moderate
+"Najafgarh, Delhi - DPCC",DELHI,28.6124504,76.9865067,2025-12-31,143.8,Moderate
+"Phase-4 GIDC, Vatva - GPCB",Vatva,22.9589978,72.6297981,2025-12-31,143.2,Moderate
+"Muradpur, Patna - BSPCB",Patna,25.6093239,85.1235252,2025-12-31,143.0,Moderate
+"Phase-1 GIDC, Vapi - GPCB",Vapi,20.3735482,72.9084376,2025-12-31,140.5,Moderate
+"Golden Temple, Amritsar - PPCB",Amritsar,31.6356659,74.8787496,2025-12-31,139.6,Moderate
+"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,30.9090157,75.851601,2025-12-31,139.5,Moderate
+"Khadakpada, Kalyan - MPCB",Kalyan,19.2396742,73.1366482,2025-12-31,134.6,Moderate
+"Sector-25, Chandigarh - CPCC",Chandigarh,30.7334421,76.7797143,2025-12-31,133.4,Moderate
+"Sanjay Palace, Agra - UPPCB",Agra,27.1752554,78.0098161,2025-12-31,132.8,Moderate
+"RIMT University, Mandi Gobindgarh - PPCB",Mandi Gobindgarh,30.6693384,76.2974678,2025-12-31,130.8,Moderate
+"Nehru Nagar, Kanpur - UPPCB",Kanpur,26.4609135,80.3217588,2025-12-31,125.7,Moderate
+"Civil Line, Jalandhar - PPCB",Jalandhar,31.2922312,75.5678878,2025-12-31,125.2,Moderate
+"Kalal Majra, Khanna - PPCB",Khanna,30.700625,76.2220763,2025-12-31,123.2,Moderate
+"Hardev Nagar, Bathinda - PPCB",Bathinda,30.1794814,75.0471098,2025-12-31,121.9,Moderate
+"Rajbansi Nagar, Patna - BSPCB",Patna,25.6093239,85.1235252,2025-12-31,121.9,Moderate
+"Collectorate, Jodhpur - RSPCB",Jodhpur,26.2967719,73.0351433,2025-12-31,121.5,Moderate
+"GVM Corporation, Visakhapatnam - APPCB",Visakhapatnam,17.6935526,83.2921297,2025-12-31,121.1,Moderate
+"Model Town, Patiala - PPCB",Patiala,30.2092778,76.3397231,2025-12-31,120.2,Moderate
+"Gomti Nagar, Lucknow - UPPCB",Lucknow,26.8381,80.9346001,2025-12-31,118.5,Moderate
+"IGSC Planetarium Complex, Patna - BSPCB",Patna,25.6093239,85.1235252,2025-12-31,118.4,Moderate
+"IDA Pashamylaram, Hyderabad - TSPCB",Hyderabad,17.360589,78.4740613,2025-12-31,117.3,Moderate
+"Secretariat, Amaravati - APPCB",Amaravati,16.5096679,80.5184535,2025-12-31,116.9,Moderate
+"Collectorate, Gaya - BSPCB",Gaya,24.7964355,85.0079563,2025-12-31,115.4,Moderate
+"Bollaram Industrial Area, Hyderabad - TSPCB",Hyderabad,17.360589,78.4740613,2025-12-31,114.9,Moderate
+"Police Commissionerate, Jaipur - RSPCB",Jaipur,26.9154576,75.8189817,2025-12-31,113.8,Moderate
+"Sector-10, Gandhinagar - GPCB",Gandhinagar,23.2232877,72.6492267,2025-12-31,113.4,Moderate
+"Manali, Chennai - CPCB",Chennai,13.0836939,80.270186,2025-12-31,113.3,Moderate
+"Shastri Nagar, Jaipur - RSPCB",Jaipur,26.9154576,75.8189817,2025-12-31,113.1,Moderate
+"Moti Doongri, Alwar - RSPCB",Alwar,27.4140049,76.6170387,2025-12-31,111.6,Moderate
+"ICRISAT Patancheru, Hyderabad - TSPCB",Hyderabad,17.360589,78.4740613,2025-12-31,110.7,Moderate
+"Railway Colony, Guwahati - PCBA",Guwahati,26.1805978,91.753943,2025-12-31,110.2,Moderate
+"Adarsh Nagar, Jaipur - RSPCB",Jaipur,26.9154576,75.8189817,2025-12-31,110.0,Moderate
+"Central University, Hyderabad - TSPCB",Hyderabad,17.360589,78.4740613,2025-12-31,109.9,Moderate
+"Ashok Nagar, Udaipur - RSPCB",Udaipur,24.578721,73.6862571,2025-12-31,108.8,Moderate
+"Sanathnagar, Hyderabad - TSPCB",Hyderabad,17.360589,78.4740613,2025-12-31,108.6,Moderate
+"Ardhali Bazar, Varanasi - UPPCB",Varanasi,25.3356491,83.0076292,2025-12-31,108.4,Moderate
+"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,17.0050454,81.7804732,2025-12-31,106.6,Moderate
+"Velachery Res. Area, Chennai - CPCB",Chennai,13.0836939,80.270186,2025-12-31,103.5,Moderate
+"Civil Lines, Ajmer - RSPCB",Ajmer,26.4691,74.639,2025-12-31,103.0,Moderate

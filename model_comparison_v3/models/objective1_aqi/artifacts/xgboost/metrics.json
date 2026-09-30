@@ -1,0 +1,30 @@
+{
+  "train": {
+    "rmse": 55.795159953004564,
+    "mae": 39.15498438325289,
+    "r2": 0.6752712864810828,
+    "mape": 35.15953739691929,
+    "n": 211961
+  },
+  "test": {
+    "rmse": 63.01651448215599,
+    "mae": 45.75780889962,
+    "r2": 0.5191794246557302,
+    "mape": 43.178612446963285,
+    "n": 35848
+  },
+  "train_seconds": 820.6662221000006,
+  "inference_seconds_total": 0.20444660000066506,
+  "inference_seconds_per_row": 5.703152198188603e-06,
+  "n_features": 65,
+  "best_params": {
+    "subsample": 0.9,
+    "reg_lambda": 1,
+    "reg_alpha": 1,
+    "n_estimators": 900,
+    "min_child_weight": 8,
+    "max_depth": 6,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.8
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "month": "2025-11",
+  "n_grid_cells": 4291,
+  "getis_ord": {
+    "n_hotspot_cells": 7,
+    "n_coldspot_cells": 24,
+    "pct_hotspot": 0.16
+  },
+  "lisa": {
+    "n_hh_cluster_cells": 704,
+    "n_ll_cluster_cells": 487,
+    "pct_hh": 16.41
+  },
+  "existing_anomaly_threshold": {
+    "n_flagged_station_days": 5391,
+    "n_grid_cells_near_a_flag": 4163
+  },
+  "agreement": {
+    "getis_ord_hotspot_AND_existing_flag_nearby": 7,
+    "lisa_hh_AND_existing_flag_nearby": 704,
+    "note": "Existing method is daily/station-point-based (~403 stations' worth of pixels), Getis-Ord/LISA run on the monthly 4447-cell national grid - agreement measured as 'is a statistically-significant hotspot cell within 0.5 degrees of any existing-method flagged point that month', a reasonable but not exact correspondence given the different spatial units."
+  }
+}

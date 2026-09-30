@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.streamlit/
+*.log
+
+# decompressed copies of the .gz-shipped large files (regenerate via decompress_data.py)
+models/objective2_hcho/artifacts/hcho_flagged.csv
+model_comparison_v3/data/model_dataset_clean101_daily.csv
+model_comparison_v3/data/pm25_aqi_grid_predictions.csv
+model_comparison_v3/models/objective1_aqi/artifacts/random_forest/random_forest.pkl
+model_comparison_v3/models/objective1_aqi/artifacts/two_stage_pm25_aqi/stage1_gases_to_pm25.pkl
+model_comparison_v3/models/objective2_hcho/artifacts/month_grid_features.csv

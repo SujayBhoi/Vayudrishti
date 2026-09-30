@@ -1,0 +1,8 @@
+variable,pearson_r_vs_pm25,file
+no2,0.4415862099505447,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_no2_2025-11-26.png
+so2,-0.013097067526749823,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_so2_2025-11-26.png
+o3,0.20217749079269723,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_o3_2025-11-26.png
+co,0.0710433830994474,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_co_2025-11-26.png
+temp_c,-0.45118117193730684,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_temp_c_2025-11-26.png
+wind_speed,-0.31990643175608363,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_wind_speed_2025-11-26.png
+rh_pct,-0.1622411004325145,C:\Users\mohit\OneDrive\Documents\Notes\Hackathon\Claude\Trial -02\model_comparison_v3\figures\pm25_analysis\pm25_vs_rh_pct_2025-11-26.png

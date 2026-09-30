@@ -1,0 +1,88 @@
+{
+  "threshold": 0.0003287748113506,
+  "top_fraction_used_for_relative_predicted_hotspots": 0.05,
+  "n_predicted_hotspot_cells_absolute_threshold": 0,
+  "mean_spearman_rank_correlation": 0.2821916039188497,
+  "spearman_all_months_positive": true,
+  "spearman_by_month": [
+    0.19505510910027635,
+    0.11777265624782686,
+    0.34413792647010616,
+    0.46216850132878795,
+    0.37740843917048106,
+    0.1795733954756273,
+    0.2345988574135875,
+    0.4390067548146422,
+    0.27655979075244846,
+    0.29416388450267583,
+    0.2929318305095192,
+    0.17074432839671147,
+    0.11648764751349136,
+    0.2736813870123334,
+    0.2779085235365124,
+    0.38481724294791775,
+    0.3602409914274985
+  ],
+  "results": {
+    "National (all test months pooled)": {
+      "tp": 402,
+      "fp": 3389,
+      "fn": 2875,
+      "precision": 0.10604062252703772,
+      "recall": 0.12267317668599328,
+      "n_actual_hotspot_cells": 3277,
+      "n_predicted_hotspot_cells": 3791,
+      "n_cells_total": 75599
+    },
+    "Corridor (Punjab-Haryana-Delhi-UP)": {
+      "tp": 142,
+      "fp": 1125,
+      "fn": 495,
+      "precision": 0.11207576953433307,
+      "recall": 0.22291993720565148,
+      "n_actual_hotspot_cells": 637,
+      "n_predicted_hotspot_cells": 1267,
+      "n_cells_total": 9231
+    },
+    "East (Odisha/WB/Assam/NE)": {
+      "tp": 84,
+      "fp": 749,
+      "fn": 565,
+      "precision": 0.10084033613445378,
+      "recall": 0.12942989214175654,
+      "n_actual_hotspot_cells": 649,
+      "n_predicted_hotspot_cells": 833,
+      "n_cells_total": 11186
+    },
+    "South (Kerala/TN/Karnataka/AP)": {
+      "tp": 27,
+      "fp": 218,
+      "fn": 524,
+      "precision": 0.11020408163265306,
+      "recall": 0.04900181488203267,
+      "n_actual_hotspot_cells": 551,
+      "n_predicted_hotspot_cells": 245,
+      "n_cells_total": 16303
+    },
+    "West (Gujarat/Maharashtra)": {
+      "tp": 18,
+      "fp": 74,
+      "fn": 224,
+      "precision": 0.1956521739130435,
+      "recall": 0.0743801652892562,
+      "n_actual_hotspot_cells": 242,
+      "n_predicted_hotspot_cells": 92,
+      "n_cells_total": 9129
+    },
+    "Other/Central": {
+      "tp": 131,
+      "fp": 1223,
+      "fn": 1067,
+      "precision": 0.0967503692762186,
+      "recall": 0.10934891485809682,
+      "n_actual_hotspot_cells": 1198,
+      "n_predicted_hotspot_cells": 1354,
+      "n_cells_total": 29750
+    }
+  }
+}

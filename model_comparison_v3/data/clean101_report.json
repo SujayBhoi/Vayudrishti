@@ -1,0 +1,1147 @@
+{
+  "csv_2019_2024_cleaning": {
+    "aqi_over_500_dropped_col": 147707,
+    "rows_before_master_join": 5995567,
+    "rows_after_master_join": 5995567
+  },
+  "parquet_2025_cleaning": {
+    "aqi_over_500_dropped_col": 26877,
+    "rows_before_master_join": 3182575,
+    "rows_after_master_join": 2530466
+  },
+  "n_expected_hours_2019_2024": 52608,
+  "n_expected_hours_2025": 8760,
+  "n_common_starting_stations": 121,
+  "n_final_clean101_stations": 101,
+  "final_stations": [
+    "Adarsh Nagar, Jaipur - RSPCB",
+    "Alipur, Delhi - DPCC",
+    "Anand Kala Kshetram, Rajamahendravaram - APPCB",
+    "Anand Vihar, Delhi - DPCC",
+    "Anand Vihar, Hapur - UPPCB",
+    "Ardhali Bazar, Varanasi - UPPCB",
+    "Ashok Nagar, Udaipur - RSPCB",
+    "Ashok Vihar, Delhi - DPCC",
+    "Aya Nagar, Delhi - IITM",
+    "Bawana, Delhi - DPCC",
+    "Bollaram Industrial Area, Hyderabad - TSPCB",
+    "Borivali East, Mumbai - MPCB",
+    "CRRI Mathura Road, Delhi - IITM",
+    "Central University, Hyderabad - TSPCB",
+    "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+    "Civil Line, Jalandhar - PPCB",
+    "Civil Lines, Ajmer - RSPCB",
+    "Colaba, Mumbai - MPCB",
+    "Collectorate, Gaya - BSPCB",
+    "Collectorate, Jodhpur - RSPCB",
+    "DTU, Delhi - CPCB",
+    "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+    "Dwarka-Sector 8, Delhi - DPCC",
+    "GIDC, Ankleshwar - GPCB",
+    "GVM Corporation, Visakhapatnam - APPCB",
+    "Ganga Nagar, Meerut - UPPCB",
+    "Golden Temple, Amritsar - PPCB",
+    "Gomti Nagar, Lucknow - UPPCB",
+    "Hardev Nagar, Bathinda - PPCB",
+    "ICRISAT Patancheru, Hyderabad - TSPCB",
+    "IDA Pashamylaram, Hyderabad - TSPCB",
+    "IGI Airport (T3), Delhi - IITM",
+    "IGSC Planetarium Complex, Patna - BSPCB",
+    "IHBAS, Dilshad Garden, Delhi - CPCB",
+    "IMD Lodhi Road, Delhi - IITM",
+    "ITO, Delhi - CPCB",
+    "Indirapuram, Ghaziabad - UPPCB",
+    "Jahangirpuri, Delhi - DPCC",
+    "Jawaharlal Nehru Stadium, Delhi - DPCC",
+    "Kalal Majra, Khanna - PPCB",
+    "Khadakpada, Kalyan - MPCB",
+    "Knowledge Park - III, Greater Noida - UPPCB",
+    "Knowledge Park - V, Greater Noida - UPPCB",
+    "Kurla, Mumbai - MPCB",
+    "Lalbagh, Lucknow - CPCB",
+    "Loni, Ghaziabad - UPPCB",
+    "Major Dhyan Chand National Stadium, Delhi - DPCC",
+    "Manali, Chennai - CPCB",
+    "Mandir Marg, Delhi - DPCC",
+    "Maninagar, Ahmedabad - GPCB",
+    "Model Town, Patiala - PPCB",
+    "Moti Doongri, Alwar - RSPCB",
+    "Mundka, Delhi - DPCC",
+    "Muradpur, Patna - BSPCB",
+    "Muzaffarpur Collectorate, Muzaffarpur - BSPCB",
+    "NSIT Dwarka, Delhi - CPCB",
+    "Najafgarh, Delhi - DPCC",
+    "Narela, Delhi - DPCC",
+    "Nehru Nagar, Delhi - DPCC",
+    "Nehru Nagar, Kanpur - UPPCB",
+    "New Mandi, Muzaffarnagar - UPPCB",
+    "North Campus, DU, Delhi - IITM",
+    "Okhla Phase-2, Delhi - DPCC",
+    "Pallavpuram Phase 2, Meerut - UPPCB",
+    "Patparganj, Delhi - DPCC",
+    "Phase-1 GIDC, Vapi - GPCB",
+    "Phase-4 GIDC, Vatva - GPCB",
+    "Police Commissionerate, Jaipur - RSPCB",
+    "Powai, Mumbai - MPCB",
+    "Punjab Agricultural University, Ludhiana - PPCB",
+    "Punjabi Bagh, Delhi - DPCC",
+    "Pusa, Delhi - DPCC",
+    "Pusa, Delhi - IITM",
+    "R K Puram, Delhi - DPCC",
+    "RIICO Ind. Area III, Bhiwadi - RSPCB",
+    "RIMT University, Mandi Gobindgarh - PPCB",
+    "Railway Colony, Guwahati - PCBA",
+    "Rajbansi Nagar, Patna - BSPCB",
+    "Rohini, Delhi - DPCC",
+    "Samanpura, Patna - BSPCB",
+    "Sanathnagar, Hyderabad - TSPCB",
+    "Sanjay Nagar, Ghaziabad - UPPCB",
+    "Sanjay Palace, Agra - UPPCB",
+    "Secretariat, Amaravati - APPCB",
+    "Sector - 62, Noida - IITM",
+    "Sector-1, Noida - UPPCB",
+    "Sector-10, Gandhinagar - GPCB",
+    "Sector-116, Noida - UPPCB",
+    "Sector-25, Chandigarh - CPCC",
+    "Shadipur, Delhi - CPCB",
+    "Shastri Nagar, Jaipur - RSPCB",
+    "Sirifort, Delhi - CPCB",
+    "Sonia Vihar, Delhi - DPCC",
+    "Sri Aurobindo Marg, Delhi - DPCC",
+    "Talkatora District Industries Center, Lucknow - CPCB",
+    "Vasundhara, Ghaziabad - UPPCB",
+    "Velachery Res. Area, Chennai - CPCB",
+    "Vile Parle West, Mumbai - MPCB",
+    "Vivek Vihar, Delhi - DPCC",
+    "Wazirpur, Delhi - DPCC",
+    "Yamunapuram, Bulandshahr - UPPCB"
+  ],
+  "dropped_stations": [
+    "Alandur Bus Depot, Chennai - CPCB",
+    "Arya Nagar, Bahadurgarh - HSPCB",
+    "F-Block, Sirsa - HSPCB",
+    "Gobind Pura, Yamuna Nagar - HSPCB",
+    "Jai Bhim Nagar, Meerut - UPPCB",
+    "MD University, Rohtak - HSPCB",
+    "Municipal Corporation Office, Dharuhera - HSPCB",
+    "Murthal, Sonipat - HSPCB",
+    "Nathu Colony, Ballabgarh - HSPCB",
+    "Patti Mehar, Ambala - HSPCB",
+    "Ratanpura, Rupnagar - Ambuja Cements",
+    "SIDCO Kurichi, Coimbatore - TNPCB",
+    "Sector-18, Panipat - HSPCB",
+    "Sector-6, Panchkula - HSPCB",
+    "Shastri Nagar, Narnaul - HSPCB",
+    "Shyam Nagar, Palwal - HSPCB",
+    "Sion, Mumbai - MPCB",
+    "Tata Stadium, Jorapokhar - JSPCB",
+    "Vasai West, Mumbai - MPCB",
+    "Worli, Mumbai - MPCB"
+  ],
+  "completeness_threshold": 0.8,
+  "explicit_outlier_excluded": "Gobind Pura, Yamuna Nagar - HSPCB",
+  "windowed_ground_truth_rows": 247809,
+  "windowed_ground_truth_date_range": [
+    "2019-01-01 00:00:00",
+    "2025-12-31 00:00:00"
+  ],
+  "window_ist": "11:18-15:18",
+  "station_detail": [
+    {
+      "station_id": "Adarsh Nagar, Jaipur - RSPCB",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9941,
+      "completeness_2025": 0.9906,
+      "kept": true
+    },
+    {
+      "station_id": "Alandur Bus Depot, Chennai - CPCB",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "completeness_2019_2024": 0.9486,
+      "completeness_2025": 0.7501,
+      "kept": false,
+      "exclusion_reason": "completeness 75.0% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Alipur, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9757,
+      "completeness_2025": 0.9904,
+      "kept": true
+    },
+    {
+      "station_id": "Anand Kala Kshetram, Rajamahendravaram - APPCB",
+      "city": "Rajamahendravaram",
+      "state": "Andhra Pradesh",
+      "completeness_2019_2024": 0.98,
+      "completeness_2025": 0.9858,
+      "kept": true
+    },
+    {
+      "station_id": "Anand Vihar, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9435,
+      "completeness_2025": 0.9734,
+      "kept": true
+    },
+    {
+      "station_id": "Anand Vihar, Hapur - UPPCB",
+      "city": "Hapur",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.926,
+      "completeness_2025": 0.9705,
+      "kept": true
+    },
+    {
+      "station_id": "Ardhali Bazar, Varanasi - UPPCB",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9806,
+      "completeness_2025": 0.9825,
+      "kept": true
+    },
+    {
+      "station_id": "Arya Nagar, Bahadurgarh - HSPCB",
+      "city": "Bahadurgarh",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9592,
+      "completeness_2025": 0.3115,
+      "kept": false,
+      "exclusion_reason": "completeness 31.2% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Ashok Nagar, Udaipur - RSPCB",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9908,
+      "completeness_2025": 0.9815,
+      "kept": true
+    },
+    {
+      "station_id": "Ashok Vihar, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9832,
+      "completeness_2025": 0.9952,
+      "kept": true
+    },
+    {
+      "station_id": "Aya Nagar, Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9733,
+      "completeness_2025": 0.9975,
+      "kept": true
+    },
+    {
+      "station_id": "Bawana, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9884,
+      "completeness_2025": 0.9962,
+      "kept": true
+    },
+    {
+      "station_id": "Bollaram Industrial Area, Hyderabad - TSPCB",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "completeness_2019_2024": 0.936,
+      "completeness_2025": 0.9519,
+      "kept": true
+    },
+    {
+      "station_id": "Borivali East, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8711,
+      "completeness_2025": 0.8082,
+      "kept": true
+    },
+    {
+      "station_id": "CRRI Mathura Road, Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9511,
+      "completeness_2025": 0.9992,
+      "kept": true
+    },
+    {
+      "station_id": "Central University, Hyderabad - TSPCB",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "completeness_2019_2024": 0.9582,
+      "completeness_2025": 0.8974,
+      "kept": true
+    },
+    {
+      "station_id": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.9077,
+      "completeness_2025": 0.8692,
+      "kept": true
+    },
+    {
+      "station_id": "Civil Line, Jalandhar - PPCB",
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.9937,
+      "completeness_2025": 0.9989,
+      "kept": true
+    },
+    {
+      "station_id": "Civil Lines, Ajmer - RSPCB",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9904,
+      "completeness_2025": 0.9944,
+      "kept": true
+    },
+    {
+      "station_id": "Colaba, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8453,
+      "completeness_2025": 0.8439,
+      "kept": true
+    },
+    {
+      "station_id": "Collectorate, Gaya - BSPCB",
+      "city": "Gaya",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.8859,
+      "completeness_2025": 0.8245,
+      "kept": true
+    },
+    {
+      "station_id": "Collectorate, Jodhpur - RSPCB",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.978,
+      "completeness_2025": 0.9898,
+      "kept": true
+    },
+    {
+      "station_id": "DTU, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9751,
+      "completeness_2025": 0.9941,
+      "kept": true
+    },
+    {
+      "station_id": "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9908,
+      "completeness_2025": 0.987,
+      "kept": true
+    },
+    {
+      "station_id": "Dwarka-Sector 8, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9915,
+      "completeness_2025": 0.9937,
+      "kept": true
+    },
+    {
+      "station_id": "F-Block, Sirsa - HSPCB",
+      "city": "Sirsa",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9532,
+      "completeness_2025": 0.342,
+      "kept": false,
+      "exclusion_reason": "completeness 34.2% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "GIDC, Ankleshwar - GPCB",
+      "city": "Ankleshwar",
+      "state": "Gujarat",
+      "completeness_2019_2024": 0.9003,
+      "completeness_2025": 0.9701,
+      "kept": true
+    },
+    {
+      "station_id": "GVM Corporation, Visakhapatnam - APPCB",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "completeness_2019_2024": 0.9582,
+      "completeness_2025": 0.9836,
+      "kept": true
+    },
+    {
+      "station_id": "Ganga Nagar, Meerut - UPPCB",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8464,
+      "completeness_2025": 0.9733,
+      "kept": true
+    },
+    {
+      "station_id": "Gobind Pura, Yamuna Nagar - HSPCB",
+      "city": "Yamuna Nagar",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9344,
+      "completeness_2025": 0.1733,
+      "kept": false,
+      "exclusion_reason": "explicitly excluded outlier (2025 completeness 17.3%, far below threshold)"
+    },
+    {
+      "station_id": "Golden Temple, Amritsar - PPCB",
+      "city": "Amritsar",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.9721,
+      "completeness_2025": 0.975,
+      "kept": true
+    },
+    {
+      "station_id": "Gomti Nagar, Lucknow - UPPCB",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8704,
+      "completeness_2025": 0.9944,
+      "kept": true
+    },
+    {
+      "station_id": "Hardev Nagar, Bathinda - PPCB",
+      "city": "Bathinda",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.944,
+      "completeness_2025": 0.9179,
+      "kept": true
+    },
+    {
+      "station_id": "ICRISAT Patancheru, Hyderabad - TSPCB",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "completeness_2019_2024": 0.9732,
+      "completeness_2025": 0.9897,
+      "kept": true
+    },
+    {
+      "station_id": "IDA Pashamylaram, Hyderabad - TSPCB",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "completeness_2019_2024": 0.846,
+      "completeness_2025": 0.8408,
+      "kept": true
+    },
+    {
+      "station_id": "IGI Airport (T3), Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9195,
+      "completeness_2025": 0.8735,
+      "kept": true
+    },
+    {
+      "station_id": "IGSC Planetarium Complex, Patna - BSPCB",
+      "city": "Patna",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.8581,
+      "completeness_2025": 0.9324,
+      "kept": true
+    },
+    {
+      "station_id": "IHBAS, Dilshad Garden, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9748,
+      "completeness_2025": 0.9677,
+      "kept": true
+    },
+    {
+      "station_id": "IMD Lodhi Road, Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9743,
+      "completeness_2025": 0.8205,
+      "kept": true
+    },
+    {
+      "station_id": "ITO, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9541,
+      "completeness_2025": 0.9576,
+      "kept": true
+    },
+    {
+      "station_id": "Indirapuram, Ghaziabad - UPPCB",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9509,
+      "completeness_2025": 0.9715,
+      "kept": true
+    },
+    {
+      "station_id": "Jahangirpuri, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9846,
+      "completeness_2025": 0.9874,
+      "kept": true
+    },
+    {
+      "station_id": "Jai Bhim Nagar, Meerut - UPPCB",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.7518,
+      "completeness_2025": 0.9682,
+      "kept": false,
+      "exclusion_reason": "completeness 75.2% in 2019-2024, below the 80% threshold (2025 was fine)"
+    },
+    {
+      "station_id": "Jawaharlal Nehru Stadium, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.979,
+      "completeness_2025": 0.9833,
+      "kept": true
+    },
+    {
+      "station_id": "Kalal Majra, Khanna - PPCB",
+      "city": "Khanna",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.9854,
+      "completeness_2025": 0.9896,
+      "kept": true
+    },
+    {
+      "station_id": "Khadakpada, Kalyan - MPCB",
+      "city": "Kalyan",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.835,
+      "completeness_2025": 0.8227,
+      "kept": true
+    },
+    {
+      "station_id": "Knowledge Park - III, Greater Noida - UPPCB",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9359,
+      "completeness_2025": 0.9887,
+      "kept": true
+    },
+    {
+      "station_id": "Knowledge Park - V, Greater Noida - UPPCB",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8867,
+      "completeness_2025": 0.9967,
+      "kept": true
+    },
+    {
+      "station_id": "Kurla, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8762,
+      "completeness_2025": 0.8692,
+      "kept": true
+    },
+    {
+      "station_id": "Lalbagh, Lucknow - CPCB",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9893,
+      "completeness_2025": 0.9814,
+      "kept": true
+    },
+    {
+      "station_id": "Loni, Ghaziabad - UPPCB",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9307,
+      "completeness_2025": 0.9247,
+      "kept": true
+    },
+    {
+      "station_id": "MD University, Rohtak - HSPCB",
+      "city": "Rohtak",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9819,
+      "completeness_2025": 0.2991,
+      "kept": false,
+      "exclusion_reason": "completeness 29.9% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Major Dhyan Chand National Stadium, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9868,
+      "completeness_2025": 0.9934,
+      "kept": true
+    },
+    {
+      "station_id": "Manali, Chennai - CPCB",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "completeness_2019_2024": 0.9325,
+      "completeness_2025": 0.8798,
+      "kept": true
+    },
+    {
+      "station_id": "Mandir Marg, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9684,
+      "completeness_2025": 0.9853,
+      "kept": true
+    },
+    {
+      "station_id": "Maninagar, Ahmedabad - GPCB",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "completeness_2019_2024": 0.9716,
+      "completeness_2025": 0.929,
+      "kept": true
+    },
+    {
+      "station_id": "Model Town, Patiala - PPCB",
+      "city": "Patiala",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.995,
+      "completeness_2025": 0.9934,
+      "kept": true
+    },
+    {
+      "station_id": "Moti Doongri, Alwar - RSPCB",
+      "city": "Alwar",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9874,
+      "completeness_2025": 0.9728,
+      "kept": true
+    },
+    {
+      "station_id": "Mundka, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9787,
+      "completeness_2025": 0.9881,
+      "kept": true
+    },
+    {
+      "station_id": "Municipal Corporation Office, Dharuhera - HSPCB",
+      "city": "Dharuhera",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9262,
+      "completeness_2025": 0.2305,
+      "kept": false,
+      "exclusion_reason": "completeness 23.0% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Muradpur, Patna - BSPCB",
+      "city": "Patna",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.8178,
+      "completeness_2025": 0.9795,
+      "kept": true
+    },
+    {
+      "station_id": "Murthal, Sonipat - HSPCB",
+      "city": "Sonipat",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.8854,
+      "completeness_2025": 0.1928,
+      "kept": false,
+      "exclusion_reason": "completeness 19.3% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Muzaffarpur Collectorate, Muzaffarpur - BSPCB",
+      "city": "Muzaffarpur",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.9172,
+      "completeness_2025": 0.982,
+      "kept": true
+    },
+    {
+      "station_id": "NSIT Dwarka, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9944,
+      "completeness_2025": 0.9908,
+      "kept": true
+    },
+    {
+      "station_id": "Najafgarh, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.964,
+      "completeness_2025": 0.9842,
+      "kept": true
+    },
+    {
+      "station_id": "Narela, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9795,
+      "completeness_2025": 0.9946,
+      "kept": true
+    },
+    {
+      "station_id": "Nathu Colony, Ballabgarh - HSPCB",
+      "city": "Ballabgarh",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9596,
+      "completeness_2025": 0.2385,
+      "kept": false,
+      "exclusion_reason": "completeness 23.8% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Nehru Nagar, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9933,
+      "completeness_2025": 0.9994,
+      "kept": true
+    },
+    {
+      "station_id": "Nehru Nagar, Kanpur - UPPCB",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9789,
+      "completeness_2025": 0.964,
+      "kept": true
+    },
+    {
+      "station_id": "New Mandi, Muzaffarnagar - UPPCB",
+      "city": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8903,
+      "completeness_2025": 0.9829,
+      "kept": true
+    },
+    {
+      "station_id": "North Campus, DU, Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9373,
+      "completeness_2025": 0.9983,
+      "kept": true
+    },
+    {
+      "station_id": "Okhla Phase-2, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.991,
+      "completeness_2025": 0.9929,
+      "kept": true
+    },
+    {
+      "station_id": "Pallavpuram Phase 2, Meerut - UPPCB",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8335,
+      "completeness_2025": 0.9903,
+      "kept": true
+    },
+    {
+      "station_id": "Patparganj, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9887,
+      "completeness_2025": 0.9871,
+      "kept": true
+    },
+    {
+      "station_id": "Patti Mehar, Ambala - HSPCB",
+      "city": "Ambala",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9581,
+      "completeness_2025": 0.2447,
+      "kept": false,
+      "exclusion_reason": "completeness 24.5% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Phase-1 GIDC, Vapi - GPCB",
+      "city": "Vapi",
+      "state": "Gujarat",
+      "completeness_2019_2024": 0.9281,
+      "completeness_2025": 0.9978,
+      "kept": true
+    },
+    {
+      "station_id": "Phase-4 GIDC, Vatva - GPCB",
+      "city": "Vatva",
+      "state": "Gujarat",
+      "completeness_2019_2024": 0.9609,
+      "completeness_2025": 0.9511,
+      "kept": true
+    },
+    {
+      "station_id": "Police Commissionerate, Jaipur - RSPCB",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9411,
+      "completeness_2025": 0.9622,
+      "kept": true
+    },
+    {
+      "station_id": "Powai, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8954,
+      "completeness_2025": 0.8088,
+      "kept": true
+    },
+    {
+      "station_id": "Punjab Agricultural University, Ludhiana - PPCB",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.993,
+      "completeness_2025": 0.9947,
+      "kept": true
+    },
+    {
+      "station_id": "Punjabi Bagh, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9819,
+      "completeness_2025": 0.9668,
+      "kept": true
+    },
+    {
+      "station_id": "Pusa, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9636,
+      "completeness_2025": 0.9815,
+      "kept": true
+    },
+    {
+      "station_id": "Pusa, Delhi - IITM",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9091,
+      "completeness_2025": 0.9842,
+      "kept": true
+    },
+    {
+      "station_id": "R K Puram, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9793,
+      "completeness_2025": 0.9933,
+      "kept": true
+    },
+    {
+      "station_id": "RIICO Ind. Area III, Bhiwadi - RSPCB",
+      "city": "Bhiwadi",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9774,
+      "completeness_2025": 0.9845,
+      "kept": true
+    },
+    {
+      "station_id": "RIMT University, Mandi Gobindgarh - PPCB",
+      "city": "Mandi Gobindgarh",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.9503,
+      "completeness_2025": 0.9402,
+      "kept": true
+    },
+    {
+      "station_id": "Railway Colony, Guwahati - PCBA",
+      "city": "Guwahati",
+      "state": "Assam",
+      "completeness_2019_2024": 0.9543,
+      "completeness_2025": 0.8952,
+      "kept": true
+    },
+    {
+      "station_id": "Rajbansi Nagar, Patna - BSPCB",
+      "city": "Patna",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.8312,
+      "completeness_2025": 0.9841,
+      "kept": true
+    },
+    {
+      "station_id": "Ratanpura, Rupnagar - Ambuja Cements",
+      "city": "Rupnagar",
+      "state": "Punjab",
+      "completeness_2019_2024": 0.9525,
+      "completeness_2025": 0.6912,
+      "kept": false,
+      "exclusion_reason": "completeness 69.1% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Rohini, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9919,
+      "completeness_2025": 0.9986,
+      "kept": true
+    },
+    {
+      "station_id": "SIDCO Kurichi, Coimbatore - TNPCB",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "completeness_2019_2024": 0.5676,
+      "completeness_2025": 0.9525,
+      "kept": false,
+      "exclusion_reason": "completeness 56.8% in 2019-2024, below the 80% threshold (2025 was fine)"
+    },
+    {
+      "station_id": "Samanpura, Patna - BSPCB",
+      "city": "Patna",
+      "state": "Bihar",
+      "completeness_2019_2024": 0.8129,
+      "completeness_2025": 0.8163,
+      "kept": true
+    },
+    {
+      "station_id": "Sanathnagar, Hyderabad - TSPCB",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "completeness_2019_2024": 0.9511,
+      "completeness_2025": 0.9823,
+      "kept": true
+    },
+    {
+      "station_id": "Sanjay Nagar, Ghaziabad - UPPCB",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9555,
+      "completeness_2025": 0.9864,
+      "kept": true
+    },
+    {
+      "station_id": "Sanjay Palace, Agra - UPPCB",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9806,
+      "completeness_2025": 0.9724,
+      "kept": true
+    },
+    {
+      "station_id": "Secretariat, Amaravati - APPCB",
+      "city": "Amaravati",
+      "state": "Andhra Pradesh",
+      "completeness_2019_2024": 0.9473,
+      "completeness_2025": 0.9783,
+      "kept": true
+    },
+    {
+      "station_id": "Sector - 62, Noida - IITM",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9503,
+      "completeness_2025": 0.92,
+      "kept": true
+    },
+    {
+      "station_id": "Sector-1, Noida - UPPCB",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.8965,
+      "completeness_2025": 0.9799,
+      "kept": true
+    },
+    {
+      "station_id": "Sector-10, Gandhinagar - GPCB",
+      "city": "Gandhinagar",
+      "state": "Gujarat",
+      "completeness_2019_2024": 0.9402,
+      "completeness_2025": 0.98,
+      "kept": true
+    },
+    {
+      "station_id": "Sector-116, Noida - UPPCB",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9075,
+      "completeness_2025": 0.9321,
+      "kept": true
+    },
+    {
+      "station_id": "Sector-18, Panipat - HSPCB",
+      "city": "Panipat",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.903,
+      "completeness_2025": 0.224,
+      "kept": false,
+      "exclusion_reason": "completeness 22.4% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Sector-25, Chandigarh - CPCC",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "completeness_2019_2024": 0.8878,
+      "completeness_2025": 0.94,
+      "kept": true
+    },
+    {
+      "station_id": "Sector-6, Panchkula - HSPCB",
+      "city": "Panchkula",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9531,
+      "completeness_2025": 0.2973,
+      "kept": false,
+      "exclusion_reason": "completeness 29.7% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Shadipur, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9909,
+      "completeness_2025": 0.9669,
+      "kept": true
+    },
+    {
+      "station_id": "Shastri Nagar, Jaipur - RSPCB",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "completeness_2019_2024": 0.9963,
+      "completeness_2025": 0.9963,
+      "kept": true
+    },
+    {
+      "station_id": "Shastri Nagar, Narnaul - HSPCB",
+      "city": "Narnaul",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9362,
+      "completeness_2025": 0.245,
+      "kept": false,
+      "exclusion_reason": "completeness 24.5% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Shyam Nagar, Palwal - HSPCB",
+      "city": "Palwal",
+      "state": "Haryana",
+      "completeness_2019_2024": 0.9475,
+      "completeness_2025": 0.2398,
+      "kept": false,
+      "exclusion_reason": "completeness 24.0% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Sion, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8976,
+      "completeness_2025": 0.797,
+      "kept": false,
+      "exclusion_reason": "completeness 79.7% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Sirifort, Delhi - CPCB",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9729,
+      "completeness_2025": 0.9967,
+      "kept": true
+    },
+    {
+      "station_id": "Sonia Vihar, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9773,
+      "completeness_2025": 0.9861,
+      "kept": true
+    },
+    {
+      "station_id": "Sri Aurobindo Marg, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9903,
+      "completeness_2025": 0.9795,
+      "kept": true
+    },
+    {
+      "station_id": "Talkatora District Industries Center, Lucknow - CPCB",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.987,
+      "completeness_2025": 0.9957,
+      "kept": true
+    },
+    {
+      "station_id": "Tata Stadium, Jorapokhar - JSPCB",
+      "city": "Jorapokhar",
+      "state": "Jharkhand",
+      "completeness_2019_2024": 0.4612,
+      "completeness_2025": 0.3365,
+      "kept": false,
+      "exclusion_reason": "completeness below 80% threshold in both windows"
+    },
+    {
+      "station_id": "Vasai West, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8116,
+      "completeness_2025": 0.6704,
+      "kept": false,
+      "exclusion_reason": "completeness 67.0% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Vasundhara, Ghaziabad - UPPCB",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9745,
+      "completeness_2025": 0.971,
+      "kept": true
+    },
+    {
+      "station_id": "Velachery Res. Area, Chennai - CPCB",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "completeness_2019_2024": 0.9625,
+      "completeness_2025": 0.9469,
+      "kept": true
+    },
+    {
+      "station_id": "Vile Parle West, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8503,
+      "completeness_2025": 0.8106,
+      "kept": true
+    },
+    {
+      "station_id": "Vivek Vihar, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.9776,
+      "completeness_2025": 0.9856,
+      "kept": true
+    },
+    {
+      "station_id": "Wazirpur, Delhi - DPCC",
+      "city": "Delhi",
+      "state": "DELHI",
+      "completeness_2019_2024": 0.982,
+      "completeness_2025": 0.9957,
+      "kept": true
+    },
+    {
+      "station_id": "Worli, Mumbai - MPCB",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "completeness_2019_2024": 0.8688,
+      "completeness_2025": 0.3441,
+      "kept": false,
+      "exclusion_reason": "completeness 34.4% in 2025, below the 80% threshold (2019-2024 was fine)"
+    },
+    {
+      "station_id": "Yamunapuram, Bulandshahr - UPPCB",
+      "city": "Bulandshahr",
+      "state": "Uttar Pradesh",
+      "completeness_2019_2024": 0.9694,
+      "completeness_2025": 0.9985,
+      "kept": true
+    }
+  ],
+  "no_2025_data_stations": [
+    {
+      "station_id": "Sector- 16A, Faridabad - HSPCB",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "exclusion_reason": "no 2025 data available at all (present in the 2019-2024 file, absent from the 2025 file)"
+    }
+  ]
+}

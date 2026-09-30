@@ -1,0 +1,33 @@
+# --- Required to run streamlit_app.py ---
+streamlit==1.61.1
+folium==0.20.0
+streamlit-folium==0.27.4
+branca==0.8.2
+shapely==2.1.2
+pandas==3.0.5
+numpy==2.4.6
+matplotlib==3.11.1
+scikit-learn==1.9.0
+joblib==1.5.3
+
+# --- Only needed to re-run the data pipeline / retrain models ---
+earthengine-api==1.7.38
+requests==2.34.2
+python-dateutil==2.9.0.post0
+xgboost==3.3.0
+shap==0.52.0
+scipy==1.18.0
+statsmodels==0.14.6
+pmdarima==2.1.1
+rasterio==1.5.0
+geopandas==1.1.4
+Pillow==12.3.0
+
+# torch is only needed to retrain CNN-LSTM/ConvLSTM (train_cnn_lstm.py,
+# train_convlstm.py) - streamlit_app.py never imports it, it only reads
+# each model's already-saved predictions/metrics. The exact pinned build
+# below is CUDA 12.8; it is NOT on PyPI's default index, install with:
+#   pip install torch==2.11.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+# or, for a CPU-only machine, just:
+#   pip install torch
+# torch==2.11.0+cu128

@@ -1,0 +1,10 @@
+{
+  "correlations": {
+    "fire_vs_hcho": 0.2397891254912051,
+    "wind_vs_hcho": -0.07315852044494539,
+    "fire_vs_wind": -0.3884911582633561
+  },
+  "peak_fire_season": "Summer",
+  "peak_hcho_season": "Summer",
+  "lowest_wind_season": "Post-Monsoon"
+}

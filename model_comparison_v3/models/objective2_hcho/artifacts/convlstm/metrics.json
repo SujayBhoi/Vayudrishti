@@ -1,0 +1,24 @@
+{
+  "train": {
+    "rmse": 9.648574940209639e-05,
+    "mae": 7.186788570834324e-05,
+    "r2": 0.21674352884292603,
+    "mape": 401.17999267578125,
+    "n": 256326
+  },
+  "test": {
+    "rmse": 9.32983300569542e-05,
+    "mae": 7.040616765152663e-05,
+    "r2": 0.11579108238220215,
+    "mape": 140.2411651611328,
+    "n": 56856
+  },
+  "train_seconds": 13.909197200000563,
+  "inference_seconds_total": 0.025035599999682745,
+  "inference_seconds_per_month": 0.0014726823529225145,
+  "n_train_sequences": 73,
+  "n_test_sequences": 17,
+  "lookback_months": 6,
+  "hidden_channels": 16,
+  "device": "cuda"
+}
